@@ -44,6 +44,12 @@ namespace :deploy do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
     #run "ln -nfs #{shared_path}/config/initializers/gmail.rb #{release_path}/config/initializers/gmail.rb"
   end
+
+  desc "Precompile assets"
+  task :precompile_assets, :roles => :app do
+    run "cd #{release_path}; RAILS_ENV=production bundle exec rake assets:precompile"
+  end
 end
 
 after 'bundle:install', 'deploy:symlink_shared'
+after 'deploy:update_code', 'deploy:precompile_assets'
