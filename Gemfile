@@ -7,8 +7,8 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 
-gem 'forem'
-gem 'forem-theme-twist', :git => "git://github.com/radar/forem-theme-twist.git"
+gem 'forem', git: "git://github.com/radar/forem.git"
+gem 'forem-theme-twist', git: "git://github.com/radar/forem-theme-twist.git"
 
 gem 'kaminari', '0.13.0'
 gem 'devise'
