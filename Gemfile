@@ -5,8 +5,7 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
+gem 'pg'
 gem 'forem', git: "git://github.com/radar/forem.git"
 gem 'forem-theme-twist', git: "git://github.com/radar/forem-theme-twist.git"
 

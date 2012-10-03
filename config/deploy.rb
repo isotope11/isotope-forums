@@ -46,4 +46,4 @@ namespace :deploy do
   end
 end
 
-before 'deploy:assets:precompile', 'deploy:symlink_shared'
+after 'bundle:install', 'deploy:symlink_shared'
