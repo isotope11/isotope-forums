@@ -14,6 +14,7 @@ gem 'kaminari', '0.13.0'
 gem 'devise'
 gem "omniauth"
 gem "omniauth-oauth2"
+gem 'capistrano'
 
 # Gems used only for assets and not required
 # in production environments by default.
