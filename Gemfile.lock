@@ -77,6 +77,9 @@ GEM
     faraday (0.8.4)
       multipart-post (~> 1.1)
     ffi (1.0.11)
+    forem-gfm_formatter (1.0.0)
+      forem
+      redcarpet (~> 2.0.1)
     forem-redcarpet (1.0.0)
       pygments.rb (= 0.2.4)
       redcarpet (= 2.0.1)
@@ -193,6 +196,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   forem!
+  forem-gfm_formatter
   forem-theme-twist!
   jquery-rails
   kaminari (= 0.13.0)
