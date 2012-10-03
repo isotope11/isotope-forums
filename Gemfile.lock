@@ -6,8 +6,7 @@ GIT
 
 GIT
   remote: git://github.com/radar/forem.git
-  revision: 4f848b550a595f7eae6a8b41f7cc05b3ac15ef73
-  branch: gemoji
+  revision: d02d327785e16b114945e53692a152ed965f2ffc
   specs:
     forem (1.0.0.beta1)
       cancan (= 1.6.7)
