@@ -1,12 +1,7 @@
 GIT
-  remote: git://github.com/radar/forem-theme-twist.git
-  revision: f08ab243ee695bd5485d589c1177d99d00602150
-  specs:
-    forem-theme-twist (0.0.1)
-
-GIT
-  remote: git://github.com/radar/forem.git
-  revision: d02d327785e16b114945e53692a152ed965f2ffc
+  remote: git://github.com/knewter/forem.git
+  revision: 7fcc493073049ef55505df8ada060b8118b09bdf
+  branch: fix-precompile-assets
   specs:
     forem (1.0.0.beta1)
       cancan (= 1.6.7)
@@ -16,6 +11,12 @@ GIT
       rails (~> 3.1)
       simple_form
       workflow (= 0.8.0)
+
+GIT
+  remote: git://github.com/radar/forem-theme-twist.git
+  revision: f08ab243ee695bd5485d589c1177d99d00602150
+  specs:
+    forem-theme-twist (0.0.1)
 
 GEM
   remote: https://rubygems.org/
