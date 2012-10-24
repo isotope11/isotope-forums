@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <%= link_to "Login", "/users/auth/xrono" unless current_user %>
 <%= yield %>
 
 </body>
