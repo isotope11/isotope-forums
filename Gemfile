@@ -7,7 +7,8 @@ gem 'rails', '3.2.8'
 
 gem 'pg'
 gem 'forem', git: "git://github.com/radar/forem.git"
-gem 'forem-theme-twist', git: "git://github.com/radar/forem-theme-twist.git"
+#gem 'forem-theme-twist', git: "git://github.com/radar/forem-theme-twist.git"
+gem 'forem-theme-isotope', git: 'git://github.com/isotope11/forem-theme-isotope'
 
 gem 'kaminari', '0.13.0'
 gem 'devise'
@@ -15,6 +16,7 @@ gem "omniauth"
 gem "omniauth-oauth2"
 gem 'capistrano'
 gem 'forem-gfm_formatter'
+gem 'compass-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
