@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Isotope11 Forums</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <%= link_to "Login", "/users/auth/xrono" unless current_user %>
-<%= yield %>
-
-</body>
+  <head>
+    <title>Isotope11 Forums</title>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <%= link_to "Login", "/users/auth/xrono" unless current_user %>
+    <%= yield %>
+  </body>
 </html>

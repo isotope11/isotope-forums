@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/isotope11/forem-theme-isotope
-  revision: 2bd189463de8208670b6129242bacc438b44c9e0
+  revision: 64ed237fc6da1a1e86a3cc78295c20587bbb31aa
   specs:
     forem-theme-isotope (0.0.1)
       compass-rails

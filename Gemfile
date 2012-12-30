@@ -9,6 +9,7 @@ gem 'pg'
 gem 'forem', git: "git://github.com/radar/forem.git"
 #gem 'forem-theme-twist', git: "git://github.com/radar/forem-theme-twist.git"
 gem 'forem-theme-isotope', git: 'git://github.com/isotope11/forem-theme-isotope'
+#gem 'forem-theme-isotope', path: '/home/jadams/rails/forem-theme-isotope'
 
 gem 'kaminari', '0.13.0'
 gem 'devise'
