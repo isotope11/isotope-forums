@@ -22,7 +22,7 @@ SimpleNavigation::Configuration.run do |navigation|
     #
     primary.item :home, t(:home), root_path
     primary.item :xrono, t(:xrono), 'http://xrono.isotope11.com'
-    primary.item :wiki, t(:forums), 'http://wiki.isotope11.com'
+    primary.item :wiki, t(:wiki), 'http://wiki.isotope11.com'
     primary.dom_class = 'nav primary-nav'
 
     # you can also specify a css id or class to attach to this particular level
