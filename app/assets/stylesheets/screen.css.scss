@@ -1,0 +1,59 @@
+@import 'compass';
+@import 'compass/css3';
+@import 'compass/utilities';
+
+$default-text: #444;
+$lighter-text: #888;
+$link-color: #75959D;
+$visited-text: lighten($link-color, .2);
+$standard-radius: 5px;
+$primary-gradient-base-color: #e6e6e6;
+$primary-gradient-highlight-color: white;
+$primary-gradient: linear-gradient($primary-gradient-highlight-color, $primary-gradient-base-color);
+$header-background-top: #75959D;
+$header-background-middle: #698891;
+$header-background-bottom: #5D7A82;
+$header-gradient: linear-gradient($header-background-top, $header-background-middle 30%, $header-background-bottom);
+
+body{
+  font: 12pt Ubuntu, "Helvetica Neue", Helvetica;
+  padding: 0;
+  margin: 0;
+}
+#container{
+  padding: 1em;
+}
+nav#main-nav{
+  @include background-image($header-gradient);
+  @include single-box-shadow;
+  padding: .5em 1em;
+  ul {
+    @include horizontal-list;
+    display: inline-block;
+    li{
+      a{
+        font-size: .85em;
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: .8em .8em 1em;
+        @include border-radius($standard-radius);
+        &:hover {
+          background-color: $header-background-bottom;
+        }
+        &.selected {
+          background-color: #222;
+        }
+      }
+    }
+  }
+  .logo{
+    display: inline-block;
+    background: url('http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115');
+    width: 130px;
+    height: 40px;
+    position: relative;
+    top: -.15em;
+    margin-right: 1em;
+  }
+}

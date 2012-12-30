@@ -18,6 +18,7 @@ gem "omniauth-oauth2"
 gem 'capistrano'
 gem 'forem-gfm_formatter'
 gem 'compass-rails'
+gem 'simple-navigation'
 
 # Gems used only for assets and not required
 # in production environments by default.
